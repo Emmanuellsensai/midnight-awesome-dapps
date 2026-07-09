@@ -143,7 +143,7 @@ _Interactive, zero-knowledge-powered games_
 
 - [Midnight DiceRoll Game](https://github.com/Kali-Decoder/Midnight-Dice-Roll) - Midnight Dice Roll is a reference implementation of a verifiable dice game built using Midnight’s Compact smart contracts.
 
-
+- [Midnight RPC Game](https://github.com/mashharuki/midnight-rps-sample-app) - midnight-rps-sample-app is a sample Rock-Paper-Scissors dApp project built on Midnight, a privacy-focused blockchain.
 
 ## Governance
 
