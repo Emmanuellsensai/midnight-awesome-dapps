@@ -46,7 +46,6 @@ _Official dApps and tools maintained by the Midnight team (for education + onboa
 - [Example Bboard](https://github.com/midnightntwrk/example-bboard) - Bulletin board with multi-user interactions and privacy patterns
 - [Example ZK Loan](https://github.com/midnightntwrk/example-zkloan) - ZK-powered loan contract demonstrating private state management
 - [Midnight Kitties](https://github.com/midnightntwrk/example-kitties) - A full stack dApp using the NFT smart contract library to deploy Crypto Kitties on Midnight network
-- [NFT Smart Contract Library](https://github.com/riusricardo/midnight-contracts) - A comprehensive smart contract library for NFTs on the Midnight network
 - [Midnight Local Dev](https://github.com/midnightntwrk/midnight-local-dev) -  
 Local development environment for building and testing Midnight  
 smart contracts without connecting to Preprod
