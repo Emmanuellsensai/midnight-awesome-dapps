@@ -15,6 +15,7 @@
 - [Explorer](https://github.com/AIQUANT-Tech/explorer) - Simple block explorer for Midnight networks
 - [Midnight Indexer](https://github.com/semsorock/midnight-indexer) - An indexing tool for querying Midnight blockchain data
 - [Midnight MNN Helm](https://github.com/0xstrong/midnight-mnn-helm) - Helm charts for running Midnight full nodes or services
+- [Midnightscan](https://github.com/mediocrehacker/Midnightscan) - Blockchain scanner for tracking Midnight contract deployments
 - [NFT Smart Contract Library](https://github.com/riusricardo/midnight-contracts) - A comprehensive smart contract library for NFTs on the Midnight network
 
 ## Healthcare
@@ -34,9 +35,13 @@
 ## Finance & DeFi
 - [Asset Tokenization Platform](https://github.com/nicolasLuduena/2025-hackathon-midnight) - Decentralized asset tokenization platform
 - [Midnight Bank](https://github.com/nel349/midnight-bank) - Privacy-first banking dApp
+- [Tokenless](https://github.com/luislucena16/tokenless) - Natively Midnight-based asset tokenization system
 
 ## Starter Templates
 - [Midnightpy](https://github.com/Techgethr/midnightpy) - Midnight smart contract bindings for Python
 - [Scaffold Midnight](https://github.com/kaleababayneh/scaffold-midnight) - Full-stack dev scaffold with Midnight integration
 - [Wybe](https://github.com/lamg/wybe) - A minimal and expressive contract language for Midnight
 
+
+## Tutorials
+- [Korean Tutorial](https://github.com/jungmyeong96/midnight_tutorial) - Step-by-step development guide for Korean-speaking developers
