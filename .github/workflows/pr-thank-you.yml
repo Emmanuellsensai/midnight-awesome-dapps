@@ -3,7 +3,8 @@ name: PR Thank You & Aliit Fellowship
 on:
   pull_request_review:
     types: [submitted]
-  pull_request:
+  # pull_request_target gives a write-capable context for fork PRs on merge.
+  pull_request_target:
     types: [closed]
 
 permissions: {}
@@ -21,12 +22,17 @@ jobs:
       && github.event.pull_request.user.type != 'Bot'
       && github.event.pull_request.draft == false
     runs-on: ubuntu-latest
+    # issues:write is required: PR comments use the issues comments API.
+    # DEVREL_TRACKER_TOKEN is required for fork PRs: GITHUB_TOKEN is read-only
+    # on pull_request_review events from forks.
     permissions:
+      issues: write
       pull-requests: write
     steps:
       - name: Post approval comment
         uses: actions/github-script@60a0d83039c74a4aee543508d2ffcb1c3799cdea # v7.0.1
         with:
+          github-token: ${{ secrets.DEVREL_TRACKER_TOKEN }}
           script: |
             const MARKER = '<!-- pr-thank-you-approval -->';
             const pr = context.payload.pull_request;
@@ -76,17 +82,19 @@ jobs:
 
   thank-on-merge:
     if: >-
-      github.event_name == 'pull_request'
+      github.event_name == 'pull_request_target'
       && github.event.action == 'closed'
       && github.event.pull_request.merged == true
       && github.event.pull_request.user.type != 'Bot'
     runs-on: ubuntu-latest
     permissions:
+      issues: write
       pull-requests: write
     steps:
       - name: Post merge comment
         uses: actions/github-script@60a0d83039c74a4aee543508d2ffcb1c3799cdea # v7.0.1
         with:
+          github-token: ${{ secrets.DEVREL_TRACKER_TOKEN }}
           script: |
             const MARKER = '<!-- pr-thank-you-merge -->';
             const pr = context.payload.pull_request;
