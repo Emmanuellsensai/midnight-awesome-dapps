@@ -13,6 +13,7 @@
 
 ## Developer Tools
 - [Midnight Indexer](https://github.com/semsorock/midnight-indexer) - An indexing tool for querying Midnight blockchain data
+- [Midnightscan](https://github.com/mediocrehacker/Midnightscan) - Blockchain scanner for tracking Midnight contract deployments
 
 ## Healthcare
 - [Medical Verification System](https://github.com/FranZavalla/midnight-ui) - A transparent, secure and privacy-preserving protocol for medical data validation and government grants management
@@ -28,8 +29,12 @@
 
 ## Finance & DeFi
 - [Midnight Bank](https://github.com/nel349/midnight-bank) - Privacy-first banking dApp
+- [Tokenless](https://github.com/luislucena16/tokenless) - Natively Midnight-based asset tokenization system
 
 ## Starter Templates
 -  [Scaffold Midnight](https://github.com/kaleababayneh/scaffold-midnight) - Full-stack dev scaffold with Midnight integration
 -  [Wybe](https://github.com/lamg/wybe) - A minimal and expressive contract language for Midnight
 
+
+## Tutorials
+- [Korean Tutorial](https://github.com/jungmyeong96/midnight_tutorial) - Step-by-step development guide for Korean-speaking developers

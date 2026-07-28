@@ -91,7 +91,6 @@ _Tools that help other devs build, test, deploy, or index_
 - [Nocturne Wallet](https://github.com/htlabs-xyz/nocturne) - Self-custodial Chrome extension wallet for Midnight with shielded/unshielded balances, DUST registration, multi-network support, and dApp connector - [Chrome Web Store](https://chromewebstore.google.com/detail/nocturne/ijfdfgajlffijenjneoppbfnhjkdibna)
 - [Midnight Playground](https://midnight-playground-one.vercel.app/) - Online Compact IDE for writing, compiling, and building smart contracts with syntax error detection
 - [MidnightForge](https://github.com/bytewizard42i/MidnightForge) - Infrastructure scripts and DevOps for Midnight dApp deployment
-- [Midnightscan](https://github.com/mediocrehacker/Midnightscan) - Blockchain scanner for tracking Midnight contract deployments
 
 - [Nightforge](https://github.com/cadalt0/NIGHTFORGE) - CLI development toolkit for building, deploying, and managing Midnight smart contracts with project scaffolding, compilation, and proof server orchestration
 - [NightGate](https://github.com/ODATANO/NIGHTGATE) - Self contained Midnight Indexer packaged as an SAP CAP plugin normalizes chain data into CAP entities, and exposes it through OData V4 Services.
@@ -108,7 +107,6 @@ _Tools that help other devs build, test, deploy, or index_
 - [Pintent](https://github.com/0xAtelerix/pintent) - Cross-chain bridge from Midnight to EVM and non-EVM chains using an intent-based solver model
 - [SilentLedger](https://github.com/bytewizard42i/SilentLedger) - A privacy-preserving verified orderbook dApp
 - [Statera Protocol](https://github.com/statera-protocol/statera-protocol-midnight) - Over-collateralized stablecoin protocol with modular dApp framework
-- [Tokenless](https://github.com/luislucena16/tokenless) - Natively Midnight-based asset tokenization system
 
 ## Identity & Privacy
 
@@ -178,7 +176,6 @@ Projects that are no longer actively maintained live in the [Dormant Projects](.
 - [Compact By Example](https://github.com/Olanetsoft/compact-by-example) - Learn Midnight's Compact language through practical, real-world examples
 - [🔹 Edda Labs YouTube Series](https://www.youtube.com/@eddalabs) - In-depth Midnight examples and "Understand the Code" in Spanish, English, and Portuguese
 - [🔹 Mesh Midnight](https://midnight.meshjs.dev/) - A unified repository that brings together packages, examples, and documentation to streamline development
-- [Korean Tutorial](https://github.com/jungmyeong96/midnight_tutorial) - Step-by-step development guide for Korean-speaking developers
 
 
 
