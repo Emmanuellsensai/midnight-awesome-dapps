@@ -8,12 +8,18 @@ on:
 
 permissions: {}
 
+# Serialize thank-you jobs per PR so concurrent approvals cannot race past dedupe.
+concurrency:
+  group: pr-thank-you-${{ github.event.pull_request.number }}
+  cancel-in-progress: false
+
 jobs:
   thank-on-approval:
     if: >-
       github.event_name == 'pull_request_review'
       && github.event.review.state == 'approved'
-      && github.event.pull_request.user.login != 'dependabot[bot]'
+      && github.event.pull_request.user.type != 'Bot'
+      && github.event.pull_request.draft == false
     runs-on: ubuntu-latest
     permissions:
       pull-requests: write
@@ -22,23 +28,28 @@ jobs:
         uses: actions/github-script@60a0d83039c74a4aee543508d2ffcb1c3799cdea # v7.0.1
         with:
           script: |
+            const MARKER = '<!-- pr-thank-you-approval -->';
             const pr = context.payload.pull_request;
             const author = pr.user.login;
+            const { owner, repo } = context.repo;
 
-            const existing = await github.rest.issues.listComments({
-              owner: context.repo.owner,
-              repo: context.repo.repo,
+            const comments = await github.paginate(github.rest.issues.listComments, {
+              owner,
+              repo,
               issue_number: pr.number,
               per_page: 100,
             });
 
-            const alreadyPosted = existing.data.some(
-              (c) => c.user.type === 'Bot' && c.body.includes('<!-- pr-thank-you-approval -->')
+            const alreadyPosted = comments.some(
+              (c) => c.user?.type === 'Bot' && c.body?.includes(MARKER)
             );
-            if (alreadyPosted) return;
+            if (alreadyPosted) {
+              core.info(`Approval thank-you already posted on PR #${pr.number}; skipping.`);
+              return;
+            }
 
             const body = [
-              '<!-- pr-thank-you-approval -->',
+              MARKER,
               `Hey @${author}, your PR has been approved! 🎉`,
               '',
               'Thank you for contributing to the Midnight ecosystem. This is exactly the kind of hands-on work that strengthens the network.',
@@ -55,18 +66,20 @@ jobs:
             ].join('\n');
 
             await github.rest.issues.createComment({
-              owner: context.repo.owner,
-              repo: context.repo.repo,
+              owner,
+              repo,
               issue_number: pr.number,
               body,
             });
+
+            core.info(`Posted approval thank-you on PR #${pr.number}.`);
 
   thank-on-merge:
     if: >-
       github.event_name == 'pull_request'
       && github.event.action == 'closed'
       && github.event.pull_request.merged == true
-      && github.event.pull_request.user.login != 'dependabot[bot]'
+      && github.event.pull_request.user.type != 'Bot'
     runs-on: ubuntu-latest
     permissions:
       pull-requests: write
@@ -75,23 +88,28 @@ jobs:
         uses: actions/github-script@60a0d83039c74a4aee543508d2ffcb1c3799cdea # v7.0.1
         with:
           script: |
+            const MARKER = '<!-- pr-thank-you-merge -->';
             const pr = context.payload.pull_request;
             const author = pr.user.login;
+            const { owner, repo } = context.repo;
 
-            const existing = await github.rest.issues.listComments({
-              owner: context.repo.owner,
-              repo: context.repo.repo,
+            const comments = await github.paginate(github.rest.issues.listComments, {
+              owner,
+              repo,
               issue_number: pr.number,
               per_page: 100,
             });
 
-            const alreadyPosted = existing.data.some(
-              (c) => c.user.type === 'Bot' && c.body.includes('<!-- pr-thank-you-merge -->')
+            const alreadyPosted = comments.some(
+              (c) => c.user?.type === 'Bot' && c.body?.includes(MARKER)
             );
-            if (alreadyPosted) return;
+            if (alreadyPosted) {
+              core.info(`Merge thank-you already posted on PR #${pr.number}; skipping.`);
+              return;
+            }
 
             const body = [
-              '<!-- pr-thank-you-merge -->',
+              MARKER,
               `Congrats @${author}, your contribution has been merged! 🚀`,
               '',
               'Your work is now part of the Midnight Awesome DApps list. Thank you for helping grow the ecosystem.',
@@ -110,8 +128,10 @@ jobs:
             ].join('\n');
 
             await github.rest.issues.createComment({
-              owner: context.repo.owner,
-              repo: context.repo.repo,
+              owner,
+              repo,
               issue_number: pr.number,
               body,
             });
+
+            core.info(`Posted merge thank-you on PR #${pr.number}.`);
