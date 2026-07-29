@@ -143,9 +143,7 @@ _Interactive, zero-knowledge-powered games_
 
 - [Midnight DiceRoll Game](https://github.com/Kali-Decoder/Midnight-Dice-Roll) - Midnight Dice Roll is a reference implementation of a verifiable dice game built using Midnight’s Compact smart contracts.
 
-- [Midnight RPC Game](https://github.com/mashharuki/midnight-rps-sample-app) - midnight-rps-sample-app is a sample Rock-Paper-Scissors dApp project built on Midnight, a privacy-focused blockchain.
-
-- [Midnight Prediction Market App](https://github.com/mashharuki/midnight-prediction-market-sample-app) - midnight-prediction-market-sample-app is privacy-preserving, four-outcome football prediction market built with Midnight Compact, Midnight.js, and Lace Wallet. Players predict which fictional club will win the Lantern Cup. During the open phase the team and salt stay in the browser's Midnight private-state store; only a salted commitment, pseudonymous participant key, and public demo-point stake reach the ledger. Picks are revealed only after predictions close, preventing followers from copying the crowd.
+- [Midnight Prediction Market App](https://github.com/mashharuki/midnight-prediction-market-sample-app) - Privacy-preserving four-outcome football prediction market using Compact, Midnight.js, and Lace Wallet.
 
 ## Governance
 
