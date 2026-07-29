@@ -141,6 +141,8 @@ _Interactive, zero-knowledge-powered games_
 
 - [Midnight Prediction Market App](https://github.com/mashharuki/midnight-prediction-market-sample-app) - Privacy-preserving four-outcome football prediction market using Compact, Midnight.js, and Lace Wallet.
 
+- [Midnight RPC Game](https://github.com/mashharuki/midnight-rps-sample-app) - Sample Rock-Paper-Scissors DApp on Midnight using a Compact commit/reveal flow.
+
 ## Governance
 
 - [FundAGoal](https://github.com/codeBigInt/fundagoal) - Crowdfunding smart contracts for verified projects
