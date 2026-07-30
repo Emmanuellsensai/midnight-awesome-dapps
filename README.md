@@ -139,7 +139,7 @@ _Interactive, zero-knowledge-powered games_
 
 - [Midnight DiceRoll Game](https://github.com/Kali-Decoder/Midnight-Dice-Roll) - Midnight Dice Roll is a reference implementation of a verifiable dice game built using Midnight’s Compact smart contracts.
 
-
+- [Midnight Prediction Market App](https://github.com/mashharuki/midnight-prediction-market-sample-app) - Privacy-preserving four-outcome football prediction market using Compact, Midnight.js, and Lace Wallet.
 
 ## Governance
 
