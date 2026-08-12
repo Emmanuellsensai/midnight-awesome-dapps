@@ -80,7 +80,6 @@ _Tools that help other devs build, test, deploy, or index_
 - [DPO2U Midnight Relayer](https://github.com/fredericosanntana/dpo2u-midnight-relayer) - Cross-chain compliance relay for Midnight Network with ZK proofs
 - [Midnight Doctor](https://github.com/fredericosanntana/midnight-doctor) - CLI pre-flight check that cross-references SDK + Docker + config against a verified compatibility matrix to catch version mismatches and known bugs before silent failures - [npm](https://www.npmjs.com/package/midnight-doctor)
 - [Midnight Explorer](https://github.com/Tech-Expansion/midnight-explorer-web) - The leading block explorer on the Midnight Network, proudly built by TexLabs - [Website](https://www.midnightexplorer.com/)
-- [Midnight Live View](https://github.com/Midnight-Scripts/Midnight-Live-View) - A simple script that allows users to monitor key information about their Midnight node
 - [Midnight Local Playground](https://github.com/0xshae/midnight-playground) - Local dev environment: run full node, indexer, and proof server via Docker; fund and deploy Compact contracts with Lace on "Undeployed" — no testnet or faucet. Includes Hello World contract and CLI
 - [Midnight MCP](https://github.com/Olanetsoft/midnight-mcp) - MCP server giving AI assistants access to the Midnight blockchain — search contracts, analyze code, explore docs
 - [Midnight Mobile SDK](https://github.com/mzf11125/midnight-mobile-sdk) - React Native SDK for mobile wallet, zero-knowledge contracts, and DApp connectivity with biometric auth, secure storage (iOS Keychain/Android Keystore), deep links, QR code scanner, and offline transaction queue - [npm](https://www.npmjs.com/package/@dedanzi/midnight-mobile-sdk)
@@ -89,7 +88,6 @@ _Tools that help other devs build, test, deploy, or index_
 - [Midnight Network Agent Skills](https://github.com/mzf11125/midnight_agent_skills) - 4 modular agent skills covering Midnight concepts, Compact language, API integration, and network deployment for AI-assisted development
 - [Nocturne Wallet](https://github.com/htlabs-xyz/nocturne) - Self-custodial Chrome extension wallet for Midnight with shielded/unshielded balances, DUST registration, multi-network support, and dApp connector - [Chrome Web Store](https://chromewebstore.google.com/detail/nocturne/ijfdfgajlffijenjneoppbfnhjkdibna)
 - [Midnight Playground](https://midnight-playground-one.vercel.app/) - Online Compact IDE for writing, compiling, and building smart contracts with syntax error detection
-- [MidnightForge](https://github.com/bytewizard42i/MidnightForge) - Infrastructure scripts and DevOps for Midnight dApp deployment
 - [MIDSKILLS](https://github.com/Kali-Decoder/Midnight-skills) - Modular agent skills for AI coding assistants covering Compact contracts, wallet integration, indexer queries, and full DApp scaffolds. - [Website](https://midskills.sevryn.xyz/)
 - [Night Check](https://github.com/CjDabrow/night-check) - Reviews Compact contracts and SDK code for Midnight-specific privacy and security issues, and certifies a review on-chain with a privacy-preserving Compact contract. - [Website](https://midnight.gridservices.xyz)
 - [Nightforge](https://github.com/cadalt0/NIGHTFORGE) - CLI development toolkit for building, deploying, and managing Midnight smart contracts with project scaffolding, compilation, and proof server orchestration
@@ -107,7 +105,6 @@ _Tools that help other devs build, test, deploy, or index_
 - [Pintent](https://github.com/0xAtelerix/pintent) - Cross-chain bridge from Midnight to EVM and non-EVM chains using an intent-based solver model
 - [SilentBid](https://github.com/efekrbas/midnight-sealed-bid-marketplace) - A zero-knowledge sealed-bid marketplace where bids stay private until settlement.
 - [SilentLedger](https://github.com/bytewizard42i/SilentLedger) - A privacy-preserving verified orderbook dApp
-- [Statera Protocol](https://github.com/statera-protocol/statera-protocol-midnight) - Over-collateralized stablecoin protocol with modular dApp framework
 
 ## Identity & Privacy
 
@@ -122,7 +119,6 @@ _Privacy-preserving identity, credentials, and proof of personhood_
 - [Midnight Authenticator](https://github.com/subc0der/midnight-authenticator) - Zero-knowledge TOTP authenticator that proves code validity without revealing secrets
 - [Midnight Cloak](https://github.com/subc0der/midnight-cloak) - Zero-knowledge identity verification SDK enabling dApps to verify user attributes (age, credentials) without exposing personal data
 - [Nightroom](https://github.com/Gutopro/nightroom) - Privacy-preserving room rental protocol using zero-knowledge proofs to verify owner and guest identity without exposing sensitive data on-chain.
-- [Private Data Management](https://github.com/Edgxtech/pdm-demo-app) - Private data management demonstration using decentralised ledgers ([article](https://medium.com/itnext/private-data-management-using-decentralised-ledgers-b972c6855e48))
 - [Proof-of-Age Gate](https://github.com/tomiin/midnight-proof-of-age) - Prove you meet a minimum age without revealing your birth year; ZK selective disclosure in Compact, with a React frontend wired to the 1AM wallet
 - [SentinelDID](https://github.com/bytewizard42i/SentinelDID-poc) - ZK identity and access prototype with selective attributes
 - [ZIP](https://github.com/oluwatobiss/zip-midnight-mlh-202605-hack) - A privacy-first Proof-of-Humanity application
