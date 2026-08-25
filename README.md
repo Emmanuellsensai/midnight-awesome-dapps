@@ -15,6 +15,7 @@
   - [Developer Tools](#developer-tools)
   - [Finance \& DeFi](#finance--defi)
   - [Identity \& Privacy](#identity--privacy)
+  - [EffectStream](#effectstream)
   - [Gaming](#gaming)
   - [Governance](#governance)
   - [Dormant Projects](#dormant-projects)
@@ -126,6 +127,12 @@ _Privacy-preserving identity, credentials, and proof of personhood_
 - [SentinelDID](https://github.com/bytewizard42i/SentinelDID-poc) - ZK identity and access prototype with selective attributes
 - [ZIP](https://github.com/oluwatobiss/zip-midnight-mlh-202605-hack) - A privacy-first Proof-of-Humanity application
 - [zkTanitID](https://github.com/carthagexlabs/zk-tanit-id) - Privacy-Preserving Identity Attestations, inspired by Tunisia’s digital sovereignty challenges
+
+## EffectStream
+
+_DApps built on the [EffectStream](https://effectstream.dev) cross-chain sync framework, bridging Midnight with another chain_
+
+- [Anonboard](https://github.com/nel349/solana-anonboard) - Anonymous bulletin board that proves the right to post with a zero-knowledge membership circuit on Midnight, while posts are stored publicly and gaslessly on Solana, linked by an EffectStream sync node.
 
 # Topics
 
