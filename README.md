@@ -125,6 +125,7 @@ _Privacy-preserving identity, credentials, and proof of personhood_
 - [Nightroom](https://github.com/Gutopro/nightroom) - Privacy-preserving room rental protocol using zero-knowledge proofs to verify owner and guest identity without exposing sensitive data on-chain.
 - [Proof-of-Age Gate](https://github.com/tomiin/midnight-proof-of-age) - Prove you meet a minimum age without revealing your birth year; ZK selective disclosure in Compact, with a React frontend wired to the 1AM wallet
 - [SentinelDID](https://github.com/bytewizard42i/SentinelDID-poc) - ZK identity and access prototype with selective attributes
+- [ShadowVoice](https://github.com/priyalraut703/shadowvoice) - Anonymous student feedback DApp on Midnight where enrollment is proven with zero-knowledge proofs and complaint identity stays private.
 - [ZIP](https://github.com/oluwatobiss/zip-midnight-mlh-202605-hack) - A privacy-first Proof-of-Humanity application
 - [zkTanitID](https://github.com/carthagexlabs/zk-tanit-id) - Privacy-Preserving Identity Attestations, inspired by Tunisia’s digital sovereignty challenges
 
