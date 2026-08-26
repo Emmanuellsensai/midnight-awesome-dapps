@@ -15,7 +15,6 @@
   - [Developer Tools](#developer-tools)
   - [Finance \& DeFi](#finance--defi)
   - [Identity \& Privacy](#identity--privacy)
-  - [EffectStream](#effectstream)
   - [Gaming](#gaming)
   - [Governance](#governance)
   - [Dormant Projects](#dormant-projects)
@@ -115,6 +114,7 @@ _Privacy-preserving identity, credentials, and proof of personhood_
 
 - [🔹 Midnight Identity](https://github.com/bricktowers/midnight-identity) - Brick Towers' ZK identity system for self-issued credentials
 - [AirLog](https://github.com/hbrazier01/airlog) - Privacy preserving aviation maintenance record verification system built with Midnight Compact smart contracts
+- [Anonboard](https://github.com/nel349/solana-anonboard) - Anonymous bulletin board that proves membership with a zero-knowledge circuit on Midnight, while posts are stored publicly and gaslessly on Solana, linked by an EffectStream sync node.
 - [Credence](https://github.com/0xfdbu/midnight-apps/tree/main/fullstack-dapp) - Fullstack ZK identity platform for privacy-preserving credential attestations — authorities attest users via Merkle-tree commitments; users prove eligibility without revealing identity using nullifier-protected ZK proofs, with deterministic key derivation
 - [AutoDiscovery](https://github.com/SpyCrypto/AutoDiscovery) - Privacy-preserving legal discovery automation with jurisdiction-aware compliance, ZK proofs, and dual-ledger architecture
 - [DPO2U Midnight](https://github.com/fredericosanntana/dpo2u-midnight) - Autonomous LGPD/GDPR compliance protocol with ZK-attested privacy scores. AI agents audit data protection practices off-chain and record immutable attestations on Midnight via four Compact smart contracts (ComplianceRegistry, AgentRegistry, FeeDistributor, Treasury)
@@ -127,12 +127,6 @@ _Privacy-preserving identity, credentials, and proof of personhood_
 - [SentinelDID](https://github.com/bytewizard42i/SentinelDID-poc) - ZK identity and access prototype with selective attributes
 - [ZIP](https://github.com/oluwatobiss/zip-midnight-mlh-202605-hack) - A privacy-first Proof-of-Humanity application
 - [zkTanitID](https://github.com/carthagexlabs/zk-tanit-id) - Privacy-Preserving Identity Attestations, inspired by Tunisia’s digital sovereignty challenges
-
-## EffectStream
-
-_DApps built on the [EffectStream](https://effectstream.dev) cross-chain sync framework, bridging Midnight with another chain_
-
-- [Anonboard](https://github.com/nel349/solana-anonboard) - Anonymous bulletin board that proves the right to post with a zero-knowledge membership circuit on Midnight, while posts are stored publicly and gaslessly on Solana, linked by an EffectStream sync node.
 
 # Topics
 
