@@ -78,6 +78,7 @@ _Tools that help other devs build, test, deploy, or index_
 - [🔹 OpenZeppelin Compact Tools](https://github.com/OpenZeppelin/compact-tools) - Tools for compiling, building, and testing Compact smart contracts
 - [🔹 Web3Fast Midnight](https://midnight.web3fast.dev/) - Fast development tools and services for Midnight blockchain
 - [DPO2U Midnight Relayer](https://github.com/fredericosanntana/dpo2u-midnight-relayer) - Cross-chain compliance relay for Midnight Network with ZK proofs
+- [EchoMKB](https://github.com/EchoForge-Dev/EchoMKB) - Agent skill that searches the Midnight documentation live on every use, returns cited excerpts carrying each page's Compact language and compiler version, and reports version drift between the compatibility matrix and the latest releases - [Website](https://m.echoforgeef.com/echomkb)
 - [Midnight Doctor](https://github.com/fredericosanntana/midnight-doctor) - CLI pre-flight check that cross-references SDK + Docker + config against a verified compatibility matrix to catch version mismatches and known bugs before silent failures - [npm](https://www.npmjs.com/package/midnight-doctor)
 - [Midnight Explorer](https://github.com/Tech-Expansion/midnight-explorer-web) - The leading block explorer on the Midnight Network, proudly built by TexLabs - [Website](https://www.midnightexplorer.com/)
 - [Midnight Local Playground](https://github.com/0xshae/midnight-playground) - Local dev environment: run full node, indexer, and proof server via Docker; fund and deploy Compact contracts with Lace on "Undeployed" — no testnet or faucet. Includes Hello World contract and CLI
@@ -106,6 +107,7 @@ _Tools that help other devs build, test, deploy, or index_
 - [MidPilot](https://github.com/ANPAN27/MidPilot) - AI spending assistant for Midnight that plans transfers with local policy checks and MCP wallet integration. - [Demo](https://midpilot.vercel.app)
 - [Noctis](https://github.com/NoctisZone/Noctis) - Token launchpad with a private Midnight buying phase: amounts stay hidden until reveal, when the contract checks the per-wallet cap. - [Site](https://noctis.zone)
 - [Pintent](https://github.com/0xAtelerix/pintent) - Cross-chain bridge from Midnight to EVM and non-EVM chains using an intent-based solver model
+- [Selkie](https://github.com/DpacJones/selkie-usdm-escrow) - Escrow that holds USDM in contract state and releases it to whoever proves knowledge of a secret, with no identity check in the claim path.
 - [SilentBid](https://github.com/efekrbas/midnight-sealed-bid-marketplace) - A zero-knowledge sealed-bid marketplace where bids stay private until settlement.
 - [SilentLedger](https://github.com/bytewizard42i/SilentLedger) - A privacy-preserving verified orderbook dApp
 
@@ -116,6 +118,7 @@ _Privacy-preserving identity, credentials, and proof of personhood_
 - [🔹 Midnight Identity](https://github.com/bricktowers/midnight-identity) - Brick Towers' ZK identity system for self-issued credentials
 - [AirLog](https://github.com/hbrazier01/airlog) - Privacy preserving aviation maintenance record verification system built with Midnight Compact smart contracts
 - [Anonymous Whispers](https://github.com/Emmanuellsensai/anonymous-whispers) - Whistleblower DApp on Midnight that stores client-encrypted reports on-chain with an in-circuit hash commitment of the plaintext. - [Demo](https://anonymous-whispers.vercel.app)
+- [Anonboard](https://github.com/nel349/solana-anonboard) - Anonymous bulletin board that proves membership with a zero-knowledge circuit on Midnight, while posts are stored publicly and gaslessly on Solana, linked by an EffectStream sync node.
 - [Credence](https://github.com/0xfdbu/midnight-apps/tree/main/fullstack-dapp) - Fullstack ZK identity platform for privacy-preserving credential attestations — authorities attest users via Merkle-tree commitments; users prove eligibility without revealing identity using nullifier-protected ZK proofs, with deterministic key derivation
 - [AutoDiscovery](https://github.com/SpyCrypto/AutoDiscovery) - Privacy-preserving legal discovery automation with jurisdiction-aware compliance, ZK proofs, and dual-ledger architecture
 - [DPO2U Midnight](https://github.com/fredericosanntana/dpo2u-midnight) - Autonomous LGPD/GDPR compliance protocol with ZK-attested privacy scores. AI agents audit data protection practices off-chain and record immutable attestations on Midnight via four Compact smart contracts (ComplianceRegistry, AgentRegistry, FeeDistributor, Treasury)
